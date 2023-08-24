@@ -1,0 +1,3 @@
+[submodule "Assignments/assignment_1/Chat-App"]
+	path = Assignments/assignment_1/Chat-App
+	url = git@github.com:Praanshu98/Chat-App.git
