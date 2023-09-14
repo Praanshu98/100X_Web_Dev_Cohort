@@ -4,3 +4,6 @@
 [submodule "100x-Essentials"]
 	path = 100x-Essentials
 	url = git@github.com:Praanshu98/100x-Essentials.git
+[submodule "Module_02_HTML/assignments/portfolio"]
+	path = Module_02_HTML/assignments/portfolio
+	url = git@github.com:Praanshu98/portfolio.git
