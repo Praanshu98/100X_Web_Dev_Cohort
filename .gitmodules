@@ -7,9 +7,4 @@
 [submodule "Module_02_HTML/assignments/portfolio"]
 	path = Module_02_HTML/assignments/portfolio
 	url = git@github.com:Praanshu98/portfolio.git
-[submodule "Module_03_CSS/assignments/portfolio"]
-	path = Module_03_CSS/assignments/portfolio_vanilla_css
-	url = git@github.com:Praanshu98/portfolio.git
-[submodule "capstone_project/100x-MicroBlogging"]
-	path = capstone_project/100x-MicroBlogging
-	url = git@github.com:Praanshu98/100x-MicroBlogging.git
+
