@@ -1,0 +1,33 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2709
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww17200\viewh9640\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs36 \cf0 Insights from Module 4 - Making Components Lecture:\
+\
+1. **Dist and Src:**\
+   - It is necessary to create two different directories.\
+   - It is essential to place the CSS file in the 'src' directory.\
+   - Tailwind will compile all the CSS and retain only the styles actually used for production code.\
+   - This feature is referred to as "Tailwind Purge."\
+\
+2. **NPM and NPX:**\
+   - NPM serves as a package manager.\
+   - NPX is utilized to test a library without the need for local installation.\
+\
+3. **Breakdown of \'93npx tailwind -i ./src/input.css -o ./dist/output.css --watch\'94**\
+   - This command is employed to continuously monitor the 'input.css' file and compile CSS into the 'output.css' file.\
+   - The '-i' flag designates the CSS input file.\
+   - The '-o' flag designates the CSS output file.\
+   - The '--watch' flag keeps the command active and monitors any new changes in the CSS input file.\
+\
+4. Several extensions, such as Tailwind CSS IntelliSense and Live Server, prove to be valuable tools.\
+\
+5. **Atomic Design:**\
+   - Designs can be deconstructed into the smallest elements referred to as "components."\
+   - A collection of components can form a "molecule."\
+   - A collection of molecules can construct an "organism."\
+\
+6. Tailwind might not include all the necessary design components; therefore, you can extend the Tailwind config file with the required colors, fonts, etc.}
