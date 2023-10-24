@@ -17,3 +17,6 @@
 [submodule "Module_03_CSS/assignment/portfolio_vanilla_css"]
 	path = Module_03_CSS/assignment/portfolio_vanilla_css
 	url = git@github.com:Praanshu98/portfolio_vanilla_css.git
+[submodule "Module_05_Layouts/portfolio"]
+	path = Module_05_Layouts/portfolio
+	url = git@github.com:Praanshu98/portfolio.git
