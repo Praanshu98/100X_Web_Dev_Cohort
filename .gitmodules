@@ -20,3 +20,6 @@
 [submodule "Module_05_Layouts/portfolio"]
 	path = Module_05_Layouts/portfolio
 	url = git@github.com:Praanshu98/portfolio.git
+[submodule "Module_07_Javascript_Advanced/Post_Tweet_Using_Fetch"]
+	path = Module_07_Javascript_Advanced/Post_Tweet_Using_Fetch
+	url = https://github.com/Praanshu98/Post-Tweet-Using-Fetch
