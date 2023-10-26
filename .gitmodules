@@ -23,3 +23,6 @@
 [submodule "Module_07_Javascript_Advanced/Post_Tweet_Using_Fetch"]
 	path = Module_07_Javascript_Advanced/Post_Tweet_Using_Fetch
 	url = https://github.com/Praanshu98/Post-Tweet-Using-Fetch
+[submodule "Module_07_Javascript_Advanced/100x_Data_Analysis"]
+	path = Module_07_Javascript_Advanced/100x_Data_Analysis
+	url = https://github.com/Praanshu98/100x_Data_Analysis
