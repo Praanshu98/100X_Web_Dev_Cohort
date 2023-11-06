@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UI as a Function of State - Todo List</title>
+</head>
+
+<body>
+    <script>
+
+        // create todo
+        // delete todo
+
+
+        // State definition.
+        let state = {
+            items: [
+                { id: 1, text: 'Attend Lecture', done: false },
+                { id: 2, text: 'Write code', done: false },
+                { id: 3, text: 'Complete the assignment', done: false }
+            ]
+        };
+
+        // State update mechanism.
+        function toggleItemDone(id) {
+            const item = state.items.find(item => item.id === id);
+            if (item) {
+                item.done = !item.done;
+            }
+            render(); // Re-render after updating the state.
+        }
+
+        // UI as a function of state.
+        function TodoApp(state) {
+            return `
+        <ul>
+            ${state.items.map(item => `
+            <li onclick="toggleItemDone(${item.id})" style="text-decoration: ${item.done ? 'line-through' : 'none'}">
+                ${item.text}
+            </li>
+            `).join('')}
+        </ul>
+            <div>
+                <input type="text" name="todo_input" id="todo_input">
+                <button type="submit" id="submit">Submit</button>
+            </div>
+            `;
+        }
+
+        function createTodo(currentState) {
+            // Function to create new todo task
+
+        }
+
+        function deleteTodo(currentState) {
+            // Function to create new todo task
+        }
+
+        // Rendering the UI.
+        function render() {
+            document.body.innerHTML = TodoApp(state);
+        }
+
+        // Initial render.
+        render();
+
+        document.getElementById("submit").addEventListener("click", () => {
+            console.log("test");
+
+        })
+
+    </script>
+
+</body>
+
+</html>
