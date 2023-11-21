@@ -26,3 +26,9 @@
 [submodule "Module_07_Javascript_Advanced/100x_Data_Analysis"]
 	path = Module_07_Javascript_Advanced/100x_Data_Analysis
 	url = https://github.com/Praanshu98/100x_Data_Analysis
+[submodule "Module_08_MultiPage_to_SinglePage/100x_Capstone"]
+	path = Module_08_MultiPage_to_SinglePage/100x_Capstone
+	url = git@github.com:Praanshu98/100x-Capstone.git
+[submodule "Module_10_Backend/Assignment2"]
+	path = Module_10_Backend/Assignment2
+	url = git@github.com:Praanshu98/100x_Backend_Assignment2.git

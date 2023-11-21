@@ -2,8 +2,8 @@
 Bill.png
 pre_assignment/
 .vscode/
-
-
+*/**/node_modules
+password.txt
 
 
 
